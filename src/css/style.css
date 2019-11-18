@@ -12,4 +12,65 @@ html body {
   padding: 0;
   margin: 0;
 }
+
+.content {
+  display: block;
+  padding: 0 14rem 0 14rem;
+}
+
+.content .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.content .header .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.content .header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content .header .menu .menu-element {
+  padding: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.content .about {
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .about img {
+  height: 37.6rem;
+  width: 33.6rem;
+}
 /*# sourceMappingURL=style.css.map */
