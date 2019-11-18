@@ -19,16 +19,12 @@ html{
     .header{
         display: flex;
         font-size: 2rem;
-        padding: 0;
-        margin: 0;
+        margin: 4.8rem 0 0 0;    
 
         .home{
             display: flex;
             justify-content: left;
             align-items: center;
-            padding: 0;
-            margin: 0;
-    
         }
 
         .menu{
@@ -42,7 +38,6 @@ html{
                 padding: 1rem;
                 padding: 0;
                 margin: 0;
-        
             }
         }
     }
@@ -51,6 +46,7 @@ html{
         font-size: 2rem;
         display: flex;
         justify-content: center;
+        margin: 20.8rem 0 0 0;
         img{
             height: 37.6rem;
             width: 33.6rem;
