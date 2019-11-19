@@ -22,6 +22,9 @@ html body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 2rem;
   margin: 4.8rem 0 0 0;
 }
@@ -42,9 +45,6 @@ html body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -52,8 +52,16 @@ html body {
 
 .content .header .menu .menu-element {
   padding: 1rem;
-  padding: 0;
+  padding: 0 1rem 0 0;
   margin: 0;
+  font-weight: bold;
+  color: black;
+}
+
+.content .header .menu .menu-element:hover {
+  cursor: pointer;
+  -webkit-text-decoration: overline #138240;
+          text-decoration: overline #138240;
 }
 
 .content .about {
@@ -68,7 +76,46 @@ html body {
 }
 
 .content .about img {
+  background-size: cover;
   height: 37.6rem;
   width: 33.6rem;
+}
+
+.content .about .bio {
+  margin-left: 5.6rem;
+}
+
+.content .about .bio .text {
+  font-size: 2rem;
+  color: #161616;
+  text-align: left;
+}
+
+.content .links {
+  margin-top: 14.4rem;
+}
+
+.content .links hr {
+  width: 32.8rem;
+  color: #138240;
+}
+
+.content .links .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.content .links .social-element {
+  padding-left: 1rem;
+}
+
+.remove-hyperlink-decoration {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
