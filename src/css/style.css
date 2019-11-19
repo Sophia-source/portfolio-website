@@ -115,6 +115,11 @@ html body {
   padding-left: 1rem;
 }
 
+h1 {
+  font-size: 20rem;
+  color: red;
+}
+
 .remove-hyperlink-decoration {
   text-decoration: none;
 }
